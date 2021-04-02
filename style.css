@@ -1,22 +1,41 @@
 body {
     background-image:url("img/bg\ white.png")
 }
-
 *{
-    font-family:cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
 h1{
-    color: hsl(0, 94%, 27%);
-    font-size:6vmax;
-    margin: 30px;
-    border:solid;
-    justify-content: space-between;
+   
+    text-align: center;
+    font-size: 100px;;
+    color: hsl(0, 0%, 100%);
+}
+.header{
+    background-image:url("img/BGBalck.jpg") ;
+    font-size: 20px;
 }
 
 .menu{
-    margin-top: 30px;
-    margin-right: 30px;
+    text-align: end;
 }
-.item{
+
+.grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.origami{
+    background-color: rgba(183, 0, 255, 0.274);
+    display:flexbox;
+    font-size: x-large;
+    color: #700000;
+    font-weight: bold;
+    height: 900px;
     border:solid;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1650px;
 }
